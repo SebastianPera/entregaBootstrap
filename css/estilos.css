@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    min-height: 100vh;
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.116); 
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* Estilos Header */
+
+header{
+    background-color: #1c2331;
+}
+
+
+/* Estilos section 1 - Imagen de fondo (INDEX)*/
+
+.contenedor-img{
+    height: 35.625rem;
+}
+.contenedor-img img{
+    object-fit: cover;
+    height: 100%;
+}
+
+
+/* Estilos section 2*/
+
+.rowDiv{
+    display: flex;
+    align-content:center;
+    height: 11.25rem;  
+}
+.card{
+    height: 90%;
+    border-radius: 0.625rem;
+    border-style: none;
+    box-shadow: rgba(0, 0, 0, 0.16) 0rem 0.1875rem 0.375rem, rgba(0, 0, 0, 0.23) 0rem 0.1875rem 0.375rem;
+}
+
+
+/* Estilos footer */
+
+footer{
+    background-color: #1c2331
+}
+
+
+/* Estilos Nosotros */
+
+.nosotrosDiv1{
+    height: 12.5rem; 
+    background-color: #7080907a;
+}
+.nosotrosArticle{
+    background-color: #183030d5;   
+}
+
+
+/* Ajustes media queries */
+
+@media screen and (max-width: 992px){
+    .card h5,p{
+        font-size: 100%;
+    }
+}
+
+@media screen and (max-width: 576px){
+    body{
+        font-size: 85%;
+    }
+}
